@@ -1,0 +1,298 @@
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    /* background-color: darkgreen; */
+    background-image: url("../imgs/patternPutovanjaParent.jpg");
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.slideshow1{
+  margin: 0px 0px 0px 0px;
+  margin-top: 0px;
+  padding: 0;
+}
+header{
+  position: fixed;
+  min-height: 64px;
+  max-height: 64px; 
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  background: rgb(54, 51, 51);
+  padding: 20px;
+  z-index: 2; 
+}
+.heder-sekcija{
+  min-height: 64px;
+  max-height: 64px; 
+  
+}
+header a{
+    color: white;
+    margin-top: 40px;
+}
+#logo4{
+  font-size: 16px;
+  color: rgb(19, 247, 57);
+  font-weight: bolder;
+  line-height: 22px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    display: flex;
+}
+li{
+    flex: auto;
+    /* background-color: chartreuse; */
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.slajdovi{
+  display: none;
+  /* height: 500px; */
+}
+img{
+  vertical-align: middle;
+  /* height: 500px; */
+}
+
+/* Slideshow container */
+.slideshow-polje{
+max-width: 100%;
+/* max-height: 500; */
+/* max-height: 200px; */
+position: relative;
+margin: 0;
+z-index: 1; 
+}
+
+/* Caption text */
+.PSN {
+  font-weight: bolder;
+color: black;
+font-size: 45px;
+padding: 8px 12px;
+position: absolute;
+bottom: 0px;
+/* right: 90px; */
+width: 100%;
+text-align: right;
+/* white-space: nowrap; */
+}
+
+/* The dots/bullets/indicators */
+.tacka {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+@media all and (max-width:1950px){
+  .lista{
+      font-size: 16px;
+  }
+  li{
+    flex: auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  .text{
+      font-size: 22px;
+  }
+  #logo4{
+      font-size: 25px;
+      color: rgb(19, 247, 57);
+  }
+  .PSN{
+    font-size: 45px
+  }
+}
+@media all and (max-width:1000px){
+
+.PSN{
+  font-size:30px ;
+}
+  
+}
+
+@media all and (max-width:641px){
+  .lista{
+      font-size: 15px;
+  }
+  li{
+    flex: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+  #logo4{
+      font-size: 18px;
+  }
+  .PSN{
+    font-size:20px ;
+  }
+
+  
+}
+@media all and (max-width:584px){
+  .lista{
+      font-size: 13px;
+  }
+  #logo4{
+      font-size: 12px;
+      line-height: 15px;
+  }
+}
+@media all and (max-width:470px){
+  .lista{
+      font-size: 10px;
+  }
+  #logo4{
+      font-size: 10px;
+      line-height: 10px;
+  }
+}
+@media all and (max-width:426px){
+  
+  .PSN{
+    font-size:10px ;
+  }
+}
+
+@media all and (max-width:329px){
+  .lista{
+      font-size: 8px;
+  }
+  #logo4{
+      font-size: 10px;
+  }
+  
+}
+
+
+
+
+@media all and (max-width:567px){
+  .futer3{
+      font-size: 14px
+  }
+  
+}
+@media all and (max-width:516px){
+  .futer3{
+      font-size: 10px
+  }
+
+}
+@media all and (max-width:428px){
+  .futer3{
+      font-size: 7px
+  }
+
+}
+
+
+/* ----------- */
+
+
+
+/* ------------------ */
+.oNamaKlasa{
+    width: 100%;
+    background-color: transparent;
+    padding: 20px;
+    margin: 20px;
+    /* padding: 15px;
+    margin: 15px; */
+    text-align: justify;
+}
+h1{
+  margin-bottom: 50px;
+  text-align: left;
+  margin-left: 240px;
+}
+
+.cale{
+padding: 20px;
+width: 100%;
+text-align: justify;
+justify-content: center;
+
+}
+.deca{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  margin-bottom: 80px;
+
+}
+.naslov1{
+text-align: center;
+margin-bottom: 70px;
+}
+
+.naslov2{
+  text-align: center;
+  margin-bottom: 50px
+}
+.lajk1{
+  text-align: center;
+}
+footer{
+    text-align: center;
+    color: darkgrey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px 20px;
+    z-index: 2; 
+}
