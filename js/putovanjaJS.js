@@ -6,8 +6,10 @@ $(function(){
 
     var $registerForm = $("#formZaRegistraciju");
         $.validator.addMethod("bezRazmaka",function(value,element){
-            return value == '' || value.trim().length!=0
+
+            return value == '' || (value.trim().length == value.length)
         }, "Razmaci nisu dozvoljeni");
+
         if($registerForm.length){
             $registerForm.validate({
 
